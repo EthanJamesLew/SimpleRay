@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleRay", "SimpleRay\SimpleRay.vcxproj", "{55F2D24A-7BDD-45A8-8A63-C2A357DFC5E6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleRay_Tester", "SimpleRay_Tester\SimpleRay_Tester.vcxproj", "{A079EC1D-86A9-437E-B76E-A71762A6E640}"
+	ProjectSection(ProjectDependencies) = postProject
+		{55F2D24A-7BDD-45A8-8A63-C2A357DFC5E6} = {55F2D24A-7BDD-45A8-8A63-C2A357DFC5E6}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SDL_SimpleRay", "SDL_SimpleRay\SDL_SimpleRay.vcxproj", "{C427A4B9-5885-4D52-A316-1B345CB41AF8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{55F2D24A-7BDD-45A8-8A63-C2A357DFC5E6} = {55F2D24A-7BDD-45A8-8A63-C2A357DFC5E6}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55F2D24A-7BDD-45A8-8A63-C2A357DFC5E6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{55F2D24A-7BDD-45A8-8A63-C2A357DFC5E6}.Debug|Win32.Build.0 = Debug|Win32
+		{55F2D24A-7BDD-45A8-8A63-C2A357DFC5E6}.Release|Win32.ActiveCfg = Release|Win32
+		{55F2D24A-7BDD-45A8-8A63-C2A357DFC5E6}.Release|Win32.Build.0 = Release|Win32
+		{A079EC1D-86A9-437E-B76E-A71762A6E640}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A079EC1D-86A9-437E-B76E-A71762A6E640}.Debug|Win32.Build.0 = Debug|Win32
+		{A079EC1D-86A9-437E-B76E-A71762A6E640}.Release|Win32.ActiveCfg = Release|Win32
+		{A079EC1D-86A9-437E-B76E-A71762A6E640}.Release|Win32.Build.0 = Release|Win32
+		{C427A4B9-5885-4D52-A316-1B345CB41AF8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C427A4B9-5885-4D52-A316-1B345CB41AF8}.Debug|Win32.Build.0 = Debug|Win32
+		{C427A4B9-5885-4D52-A316-1B345CB41AF8}.Release|Win32.ActiveCfg = Release|Win32
+		{C427A4B9-5885-4D52-A316-1B345CB41AF8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
